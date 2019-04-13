@@ -1,0 +1,17 @@
+Implementing more details from the JSON data into the movieDB app.
+
+Like
+Ratings
+Cast
+Language
+Country
+Genre
+Director
+Writer
+Metascore
+Movie or TV SHOW etc
+if it's a TV show, then mention total seasons
+
+Add a seperate input for api key
+
+Try implementing a save into local storage
