@@ -13,7 +13,8 @@ class App extends Component {
       Released: "",
       RunTime: "",
       poster: "",
-      plot: ""
+      plot: "",
+      type: ""
     }
   };
 
@@ -35,7 +36,8 @@ class App extends Component {
             Released: data.Released,
             RunTime: data.Runtime,
             poster: data.Poster,
-            plot: data.Plot
+            plot: data.Plot,
+            type: data.Type
           }
         });
       });
@@ -97,6 +99,8 @@ class App extends Component {
             <p>{this.state.movieDetails.Released}</p>
             <h3>Runtime:</h3>
             <p>{this.state.movieDetails.RunTime}</p>
+            <h3>Type:</h3>
+            <p>{this.state.movieDetails.type}</p>
           </div>
 
           <div className="movie-plot">
