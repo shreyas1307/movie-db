@@ -21,7 +21,7 @@ class App extends Component {
   Getdata = () => {
     console.log("clicked");
     fetch(
-      `http://www.omdbapi.com/?t=${this.state.movieTitle}&y=${
+      `https://www.omdbapi.com/?t=${this.state.movieTitle}&y=${
         this.state.movieYear
       }&plot=${this.state.plotRequest}&apikey=e2d95701`
     )
