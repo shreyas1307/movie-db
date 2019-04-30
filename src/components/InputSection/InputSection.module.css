@@ -1,0 +1,25 @@
+.divElement {
+  min-width: 100vw;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.infoElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoElement > h1,
+.infoElement > h4 {
+  margin: auto 20px;
+  padding: auto 10px;
+}
+
+.input {
+  margin: 40px 0 10px 0;
+  padding: 10px;
+  border: 2px solid #280000;
+  border-radius: 25px;
+  width: 50%;
+}
