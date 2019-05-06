@@ -13,6 +13,7 @@ class App extends Component {
     const { value } = event.target;
 
     let inputText = value;
+
     fetch(`https://www.omdbapi.com/?s=${inputText}&apikey=e2d95701`)
       .then(res => res.json())
       .then(data => {
