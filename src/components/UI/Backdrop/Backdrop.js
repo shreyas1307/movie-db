@@ -5,7 +5,7 @@ const backdrop = (props) => {
     if (props.active) {
         style = {
             zIndex: 100,
-            backgroundColor: rgba(0,0,0,.7),
+            backgroundColor: "black",
         }
     }
     return (
