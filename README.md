@@ -1,5 +1,4 @@
 # MovieDB
-## Update soon..
 ## Detailed Docs...(Work in progress)
 
 
